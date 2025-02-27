@@ -180,7 +180,7 @@ if shared.CheatEngineMode then
 end
 --[[pcall(function()
 	if (not isfile('vape/discord2.txt')) then
-		task.spawn(function() InfoNotification("Whitelist", "Was whitelisted and your whitelist dissapeared? Join back the discord server :D       ", 30) end)
+		task.spawn(function() InfoNotification("Whitelist", "U just got whitelisted!       ", 30) end)
 		task.spawn(function() InfoNotification("Discord", "New server! discord.gg/voidware!              ", 30) end)
 		task.spawn(function() warningNotification("Discord", "New server! discord.gg/voidware!             ", 30) end)
 		task.spawn(function() errorNotification("Discord", "New server! discord.gg/voidware!              ", 30) end)
